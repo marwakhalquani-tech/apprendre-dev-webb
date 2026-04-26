@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="HTML, CSS, JavaScript, tutorial, web development">
+<meta name="description" content="Cours complet HTML de zéro jusqu'au niveau avancé">
+<meta name="author" content="Web Course Project">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>JavaScript Master Course </title>
+<link rel="stylesheet" href="cours3.css">
+</head>
+
+<body>
+
+<header class="topbar">
+<h2>JAVASCRIPT MASTER COURSE 🚀</h2>
+<nav>
+<a href="#intro">Intro</a>
+<a href="#syntax">Syntaxe</a>
+<a href="#variables">Variables</a>
+<a href="#types">Types</a>
+<a href="#operators">Operators</a>
+<a href="#conditions">Conditions</a>
+<a href="#loops">Loops</a>
+<a href="#functions">Functions</a>
+<a href="#arrays">Arrays</a>
+<a href="#objects">Objects</a>
+<a href="#dom">DOM</a>
+<a href="#events">Events</a>
+<a href="#advanced">Advanced</a>
+<a href="#practice">Practice</a>
+<a href="#project">Mini Project</a>
+<a href="#final">End</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Apprendre JavaScript comme un pro ⚡</h1>
+<p>Logique • Interactivité • DOM • Pro Level</p>
+</section>
+
+<!-- INTRO -->
+<section id="intro" class="section">
+<h2>📌 Introduction à JavaScript</h2>
+<p>JavaScript est un langage de programmation qui permet de rendre les sites web interactifs.</p>
+<p>👉 HTML = structure | CSS = design | JS = logique</p>
+<p>JavaScript est exécuté dans le navigateur pour créer des effets dynamiques.</p>
+</section>
+
+<!-- SYNTAX -->
+<section id="syntax" class="section dark">
+<h2>📌 Syntaxe JS</h2>
+<p>La syntaxe est la façon d'écrire le code JavaScript.</p>
+<pre>
+let name = "Ali";
+console.log(name);
+</pre>
+<p>👉 console.log affiche un message dans la console du navigateur.</p>
+</section>
+
+<!-- VARIABLES -->
+<section id="variables" class="section">
+<h2>📌 Variables</h2>
+<p>Les variables servent à stocker des données.</p>
+<pre>
+var a = 10;
+let b = 20;
+const c = 30;
+</pre>
+<p>👉 let = modifiable | const = non modifiable</p>
+</section>
+
+<!-- TYPES -->
+<section id="types" class="section dark">
+<h2>📌 Data Types</h2>
+<p>Les types de données en JavaScript :</p>
+<ul>
+<li>String</li>
+<li>Number</li>
+<li>Boolean</li>
+<li>Array</li>
+<li>Object</li>
+</ul>
+</section>
+
+<!-- OPERATORS -->
+<section id="operators" class="section">
+<h2>📌 Operators</h2>
+<p>Les opérateurs permettent de faire des calculs et des comparaisons.</p>
+<pre>
++ - * /
+== ===
+&& || !
+</pre>
+</section>
+
+<!-- CONDITIONS -->
+<section id="conditions" class="section dark">
+<h2>📌 Conditions</h2>
+<p>Les conditions permettent de prendre des décisions dans le code.</p>
+<pre>
+if (age >= 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
+</pre>
+<p>👉 Si la condition est vraie, le code s'exécute.</p>
+</section>
+
+<!-- LOOPS -->
+<section id="loops" class="section">
+<h2>📌 Loops</h2>
+<p>Les boucles permettent de répéter du code.</p>
+<pre>
+for(let i = 0; i < 5; i++){
+  console.log(i);
+}
+</pre>
+<p>👉 Affiche les nombres de 0 à 4</p>
+</section>
+
+<!-- FUNCTIONS -->
+<section id="functions" class="section dark">
+<h2>📌 Functions</h2>
+<p>Les fonctions permettent de réutiliser du code.</p>
+<pre>
+function sayHello(){
+  console.log("Hello World");
+}
+</pre>
+<p>👉 Une fonction doit être appelée pour s'exécuter.</p>
+</section>
+
+<!-- ARRAYS -->
+<section id="arrays" class="section">
+<h2>📌 Arrays</h2>
+<p>Un array est une liste de valeurs.</p>
+<pre>
+let arr = [1,2,3,4];
+console.log(arr[0]);
+</pre>
+</section>
+
+<!-- OBJECTS -->
+<section id="objects" class="section dark">
+<h2>📌 Objects</h2>
+<p>Les objets stockent des données sous forme clé/valeur.</p>
+<pre>
+let user = {
+ name:"Ali",
+ age:20
+};
+</pre>
+</section>
+
+<!-- DOM -->
+<section id="dom" class="section">
+<h2>📌 DOM Manipulation</h2>
+<p>Le DOM permet de modifier le HTML avec JS.</p>
+<pre>
+document.getElementById("title").innerHTML = "Hello";
+</pre>
+<p>👉 On peut changer le contenu d’une page web.</p>
+</section>
+
+<!-- EVENTS -->
+<section id="events" class="section dark">
+<h2>📌 Events</h2>
+<p>Les événements sont des actions utilisateur.</p>
+<pre>
+button.onclick = function(){
+ alert("Clicked");
+};
+</pre>
+</section>
+
+<!-- ADVANCED -->
+<section id="advanced" class="section">
+<h2>📌 Advanced JS</h2>
+
+<h3>setTimeout</h3>
+<pre>
+setTimeout(() => {
+ console.log("Hello");
+}, 2000);
+</pre>
+
+<h3>setInterval</h3>
+<pre>
+setInterval(() => {
+ console.log("Repeat");
+}, 1000);
+</pre>
+
+<h3>Arrow Function</h3>
+<pre>
+const add = (a,b) => a + b;
+</pre>
+
+<h3>Fetch API</h3>
+<pre>
+fetch("api/data")
+ .then(res => res.json())
+ .then(data => console.log(data));
+</pre>
+</section>
+
+<!-- PRACTICE -->
+<section id="practice" class="section dark">
+<h2>🧠 Practice Section</h2>
+<p>👉 Essayez ces exercices :</p>
+<ul>
+<li>Créer une fonction qui affiche un message</li>
+<li>Créer un compteur</li>
+<li>Changer la couleur du background</li>
+<li>Afficher une alerte au clic</li>
+</ul>
+</section>
+
+<!-- MINI PROJECT -->
+<section id="project" class="section">
+<h2>💻 Mini Project</h2>
+<p>Counter App Example :</p>
+<pre>
+let count = 0;
+function add(){
+ count++;
+ document.getElementById("c").innerText = count;
+}
+</pre>
+</section>
+
+<!-- FINAL -->
+<section id="final" class="final">
+<h1>🎉 JAVASCRIPT COURSE COMPLETED</h1>
+<p>Bravo ! Vous avez terminé le cours 🚀</p>
+<button onclick="window.open('practice0.html','_blank')">
+Go to Learning Hub 🚀
+</button>
+</section>
+<script src="cours3.js"></script>
+
+</body>
+</html>

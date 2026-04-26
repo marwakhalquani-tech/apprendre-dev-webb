@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="HTML, CSS, JavaScript, tutorial, web development">
+<meta name="description" content="Cours complet HTML de zéro jusqu'au niveau avancé">
+<meta name="author" content="Web Course Project">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>CSS Full Course Advanced</title>
+<link rel="stylesheet" href="cours2.css">
+</head>
+
+<body>
+
+<header class="topbar">
+<h2>CSS MASTER COURSE 🚀</h2>
+<nav>
+<a href="#intro">Intro</a>
+<a href="#syntax">Syntaxe</a>
+<a href="#selectors">Selectors</a>
+<a href="#colors">Colors</a>
+<a href="#units">Units</a>
+<a href="#box">Box Model</a>
+<a href="#fonts">Fonts</a>
+<a href="#text">Text</a>
+<a href="#background">Background</a>
+<a href="#border">Borders</a>
+<a href="#shadow">Shadow</a>
+<a href="#flex">Flexbox</a>
+<a href="#grid">Grid</a>
+<a href="#position">Position</a>
+<a href="#zindex">Z-index</a>
+<a href="#hover">Hover</a>
+<a href="#transition">Transition</a>
+<a href="#animation">Animation</a>
+<a href="#responsive">Responsive</a>
+<a href="#extras">Extras</a>
+<a href="#project">Mini Project</a>
+<a href="#final">End</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Apprendre CSS comme un pro 🎨</h1>
+<p>Design • Layout • Animation • Pro Level</p>
+</section>
+
+<section id="intro" class="section">
+<h2>Introduction</h2>
+<p>CSS est utilisé pour styliser HTML et rendre les sites beaux.</p>
+<p>👉 Sans CSS: site simple. Avec CSS: site professionnel.</p>
+</section>
+
+<section id="syntax" class="section dark">
+<h2>Syntaxe CSS</h2>
+<pre>
+selector {
+  property: value;
+}
+</pre>
+<p>👉 Exemple :</p>
+<pre>
+p {
+  color: blue;
+}
+</pre>
+</section>
+
+<section id="selectors" class="section">
+<h2>Selectors</h2>
+<pre>
+p {}
+.class {}
+#id {}
+</pre>
+<p>👉 class = multiple | id = unique</p>
+</section>
+
+<section id="colors" class="section dark">
+<h2>Colors</h2>
+<pre>
+red
+#00f0ff
+rgb(0,0,0)
+</pre>
+</section>
+
+<section id="units" class="section">
+<h2>Units</h2>
+<pre>
+px % em rem vh vw
+</pre>
+<p>👉 rem = responsive size</p>
+</section>
+
+<section id="box" class="section dark">
+<h2>Box Model</h2>
+<pre>
+content
+padding
+border
+margin
+</pre>
+<p>👉 padding = inside | margin = outside</p>
+</section>
+
+<section id="fonts" class="section">
+<h2>Fonts</h2>
+<pre>
+font-family
+font-size
+font-weight
+</pre>
+</section>
+
+<section id="text" class="section dark">
+<h2>Text</h2>
+<pre>
+text-align
+text-transform
+letter-spacing
+</pre>
+</section>
+
+<section id="background" class="section">
+<h2>Background</h2>
+<pre>
+background-color
+background-image
+background-size
+</pre>
+</section>
+
+<section id="border" class="section dark">
+<h2>Border</h2>
+<pre>
+border-radius
+border-color
+border-style
+</pre>
+</section>
+
+<section id="shadow" class="section">
+<h2>Shadow</h2>
+<pre>
+box-shadow
+text-shadow
+</pre>
+</section>
+
+<section id="flex" class="section dark">
+<h2>Flexbox</h2>
+<pre>
+display:flex
+justify-content
+align-items
+</pre>
+</section>
+
+<section id="grid" class="section">
+<h2>Grid</h2>
+<pre>
+display:grid
+grid-template-columns
+</pre>
+</section>
+
+<section id="position" class="section dark">
+<h2>Position</h2>
+<pre>
+static
+relative
+absolute
+fixed
+sticky
+</pre>
+</section>
+
+<section id="zindex" class="section">
+<h2>Z-index</h2>
+<pre>
+z-index:1
+z-index:100
+</pre>
+</section>
+
+<section id="hover" class="section dark">
+<h2>Hover</h2>
+<pre>
+button:hover{
+ background:red;
+}
+</pre>
+</section>
+
+<section id="transition" class="section">
+<h2>Transition</h2>
+<pre>
+transition:0.3s ease;
+</pre>
+</section>
+
+<section id="animation" class="section dark">
+<h2>Animation</h2>
+<pre>
+@keyframes move{
+ from{transform:translateX(0)}
+ to{transform:translateX(100px)}
+}
+</pre>
+</section>
+
+<section id="responsive" class="section">
+<h2>Responsive</h2>
+<pre>
+@media(max-width:768px){body{}}
+</pre>
+</section>
+
+<!-- EXTRA 100+ LINES CONTENT -->
+<section id="extras" class="section dark">
+<h2>Extras CSS (Important 🔥)</h2>
+
+<h3>Pseudo Classes</h3>
+<pre>
+a:hover { color:red; }
+a:active { color:green; }
+input:focus { border:2px solid blue; }
+</pre>
+<p>👉 pseudo-class = état élément</p>
+
+<h3>Pseudo Elements</h3>
+<pre>
+p::before { content:"🔥"; }
+p::after { content:"✔"; }
+</pre>
+<p>👉 ajouter contenu sans HTML</p>
+
+<h3>Opacity</h3>
+<pre>
+opacity:0.5;
+</pre>
+<p>👉 transparence élément</p>
+
+<h3>Transform</h3>
+<pre>
+transform:scale(1.2);
+transform:rotate(45deg);
+</pre>
+<p>👉 zoom / rotation</p>
+
+<h3>Overflow</h3>
+<pre>
+overflow:hidden;
+overflow:auto;
+</pre>
+<p>👉 contrôle contenu qui dépasse</p>
+
+<h3>Display</h3>
+<pre>
+display:block;
+display:inline;
+display:none;
+</pre>
+<p>👉 block = ligne complète</p>
+
+<h3>CSS Variables</h3>
+<pre>
+:root{
+ --main-color:blue;
+}
+
+h1{
+ color:var(--main-color);
+}
+</pre>
+<p>👉 variables pour réutilisation</p>
+
+<h3>Object Fit</h3>
+<pre>
+img{
+ object-fit:cover;
+}
+</pre>
+<p>👉 images propres sans distortion</p>
+
+<h3>Filter</h3>
+<pre>
+filter:blur(5px);
+filter:brightness(1.2);
+</pre>
+<p>👉 effets visuels</p>
+
+</section>
+
+<section id="project" class="section">
+<h2>Mini Project 💻</h2>
+<pre>
+.card{
+ width:300px;
+ padding:20px;
+ box-shadow:0 0 10px gray;
+ border-radius:10px;
+}
+</pre>
+<p>👉 design card pro</p>
+</section>
+
+<section id="final" class="final">
+<h1>🎉 CSS COURSE COMPLETE</h1>
+<p>Félicitations, vous avez atteint un niveau professionnel !  🚀</p>
+</section>
+<button onclick="location.href='choisir.html'" >Retour</button>
+</body>
+</html>

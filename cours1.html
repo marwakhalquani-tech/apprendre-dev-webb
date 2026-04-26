@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cours complet HTML de zéro jusqu'au niveau avancé">
+  <meta name="keywords" content="HTML, CSS, JavaScript, tutorial, web development">
+  <meta name="author" content="Web Course Project">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML Full Master Course</title>
+  <link rel="stylesheet" href="cours1.css">
+</head>
+<body>
+<header class="topbar">
+  <h2>HTML MASTER COURSE</h2>
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#meta">Meta</a>
+    <a href="#structure">Structure</a>
+    <a href="#balises">Balises</a>
+    <a href="#attributes">Attributes</a>
+    <a href="#text">Texte</a>
+    <a href="#links">Liens</a>
+    <a href="#images">Images</a>
+    <a href="#lists">Listes</a>
+    <a href="#tables">Tables</a>
+    <a href="#formulaire">Formulaire</a>
+    <a href="#media">Media</a>
+    <a href="#semantic">Semantic</a>
+    <a href="#access">Accessibilité</a>
+    <a href="#final">Fin</a>
+  </nav>
+</header>
+<section id="intro" class="section">
+  <h2>Introduction à HTML</h2>
+  <p>
+    HTML signifie HyperText Markup Language. C’est le langage principal utilisé pour créer des sites web.
+  </p>
+  <h3>📌 À quoi sert HTML ?</h3>
+  <ul>
+    <li>Créer des titres, paragraphes, images</li>
+    <li>Structurer les pages web</li>
+    <li>Organiser le contenu</li>
+  </ul>
+  <h3>💡 Exemple simple :</h3>
+  <pre>
+&lt;h1&gt;Bienvenue sur mon site&lt;/h1&gt;
+&lt;p&gt;Ceci est mon premier paragraphe&lt;/p&gt;
+  </pre>
+  <p>👉 Résultat : un titre + un texte affiché dans la page web.</p>
+</section>
+<section id="meta" class="section dark">
+  <h2>Meta Tags (important pour le SEO 🔥)</h2>
+  <p>Les meta tags donnent des informations sur la page au navigateur et aux moteurs de recherche.</p>
+  <pre>
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta name="description" content="mon site"&gt;
+  </pre>
+  <p>
+    👉 Explication :
+    <ul>
+      <li>charset = caractères spéciaux</li>
+      <li>viewport = responsive design</li>
+      <li>description = SEO Google (important pour être bien référencé)</li>
+    </ul>
+  </p>
+</section>
+<section id="structure" class="section">
+  <h2>Structure de Base d’un Document HTML</h2>
+  <p>
+    Toute page HTML doit suivre une structure obligatoire.
+  </p>
+  <h3>📌 Pourquoi cette structure est-elle importante ?</h3>
+  <ul>
+    <li>Pour que le navigateur puisse lire et interpréter la page correctement.</li>
+    <li>Elle définit la base de notre page, incluant le contenu et les métadonnées.</li>
+  </ul>
+  <h3>💡 Exemple complet :</h3>
+  <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+  &lt;head&gt;&lt;/head&gt;
+  &lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;
+  </pre>
+  <p>👉 <strong>DOCTYPE</strong> : indique au navigateur qu'on utilise HTML5.</p>
+</section>
+<section id="balises" class="section dark">
+  <h2>Les Balises HTML</h2>
+  <p>
+    Une balise HTML est utilisée pour structurer le contenu de la page web.
+  </p>
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;h1&gt;Titre de la page&lt;/h1&gt;
+&lt;p&gt;Ceci est un paragraphe&lt;/p&gt;
+&lt;div&gt;Contenu dans un container&lt;/div&gt;
+  </pre>
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li>&lt;h1&gt; : Balise de titre de premier niveau</li>
+    <li>&lt;p&gt; : Balise de paragraphe</li>
+    <li>&lt;div&gt; : Balise de container pour organiser le contenu</li>
+  </ul>
+</section>
+<section id="attributes" class="section">
+  <h2>Les Attributs HTML</h2>
+  <p>
+    Les attributs sont utilisés pour donner des informations supplémentaires aux balises HTML.
+  </p>
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;a href="https://google.com" target="_blank"&gt;Google&lt;/a&gt;
+  </pre>
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li>href = lien vers une page externe</li>
+    <li>target = où ouvrir le lien (_blank = nouvelle fenêtre)</li>
+  </ul>
+</section>
+<section id="text" class="section dark">
+  <h2>Formatage de Texte</h2>
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;b&gt;Texte en gras&lt;/b&gt;
+&lt;strong&gt;Texte important&lt;/strong&gt;
+&lt;i&gt;Texte en italique&lt;/i&gt;
+&lt;u&gt;Texte souligné&lt;/u&gt;
+  </pre>
+  <p>
+    <ul>
+      <li><strong>strong</strong> : utilisé pour le texte important (SEO friendly)</li>
+      <li><strong>b</strong> : texte en gras</li>
+      <li><strong>i</strong> : texte en italique</li>
+      <li><strong>u</strong> : texte souligné</li>
+    </ul>
+  </p>
+</section>
+<section id="links" class="section">
+  <h2>Les Liens</h2>
+  <p>
+    Les liens permettent de naviguer entre les pages web.
+  </p>
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;a href="page2.html"&gt;Aller à la page 2&lt;/a&gt;
+  </pre>
+  <p>
+    Les liens sont très importants pour relier différentes pages d’un site ou pour accéder à d’autres ressources sur le web.
+  </p>
+</section>
+<section id="images" class="section dark">
+  <h2>Les Images</h2>
+  <p>
+    Vous pouvez ajouter des images à votre page HTML pour un meilleur visuel.
+  </p>
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;img src="image.jpg" alt="description de l'image"&gt;
+  </pre>
+  <p>Le texte alternatif "alt" est utilisé pour l'accessibilité (au cas où l’image ne charge pas).</p>
+</section>
+<section id="lists" class="section">
+  <h2>Les Listes</h2>
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;ul&gt;
+  &lt;li&gt;Élément 1&lt;/li&gt;
+  &lt;li&gt;Élément 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Premier&lt;/li&gt;
+  &lt;li&gt;Deuxième&lt;/li&gt;
+&lt;/ol&gt;
+  </pre>
+  <p>ul = liste non ordonnée, ol = liste ordonnée</p>
+</section>
+<section id="tables" class="section dark">
+  <h2>Les Tables (Tables HTML)</h2>
+  <p>
+    Les tables sont utilisées pour afficher des données sous forme de lignes et de colonnes.
+  </p>
+
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Nom&lt;/th&gt;
+    &lt;th&gt;Âge&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Ali&lt;/td&gt;
+    &lt;td&gt;25&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Sara&lt;/td&gt;
+    &lt;td&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+  </pre>
+
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li><strong>&lt;table&gt;</strong> : balise principale pour définir une table.</li>
+    <li><strong>&lt;tr&gt;</strong> : représente une ligne dans la table.</li>
+    <li><strong>&lt;th&gt;</strong> : définit un en-tête de colonne.</li>
+    <li><strong>&lt;td&gt;</strong> : définit une cellule de données.</li>
+  </ul>
+
+  <p>👉 Résultat : une table affichant les noms et âges.</p>
+</section>
+<section id="formulaire" class="section">
+  <h2>Les Formulaires HTML</h2>
+  <p>
+    Les formulaires permettent de collecter des informations auprès des utilisateurs.
+  </p>
+
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;form action="submit_form.php" method="POST"&gt;
+  &lt;label for="email"&gt;Email:&lt;/label&gt;
+  &lt;input type="email" id="email" name="email" placeholder="exemple@mail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"&gt;
+
+  &lt;label for="phone"&gt;Numéro de téléphone:&lt;/label&gt;
+  &lt;input type="tel" id="phone" name="phone" placeholder="06 12 34 56 78" required pattern="\d{2} \d{2} \d{2} \d{2} \d{2}"&gt;
+
+  &lt;label for="password"&gt;Mot de passe:&lt;/label&gt;
+  &lt;input type="password" id="password" name="password" placeholder="********" required pattern=".{8,}" title="Le mot de passe doit contenir au moins 8 caractères"&gt;
+
+  &lt;button type="submit"&gt;Envoyer&lt;/button&gt;
+&lt;/form&gt;
+  </pre>
+
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li><strong>action</strong> : spécifie l'URL où les données seront envoyées.</li>
+    <li><strong>method</strong> : définit la méthode HTTP utilisée (POST ou GET).</li>
+    <li><strong>required</strong> : indique que le champ est obligatoire.</li>
+    <li><strong>pattern</strong> : définit une expression régulière pour valider le format de la donnée.</li>
+    <li><strong>title</strong> : affiche un message d'erreur si le format est incorrect.</li>
+  </ul>
+
+  <h3>📌 Patterns :</h3>
+  <ul>
+    <li><strong>Email</strong>: <code>[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$</code></li>
+    <li><strong>Numéro de téléphone</strong>: <code>\d{2} \d{2} \d{2} \d{2} \d{2}</code> (format "06 12 34 56 78")</li>
+    <li><strong>Mot de passe</strong>: <code>.{8,}</code> (doit contenir au moins 8 caractères)</li>
+  </ul>
+
+</section>
+<section id="media" class="section dark">
+  <h2>Les Médias (Video, Audio, Iframe)</h2>
+  <p>
+    HTML permet d’intégrer des vidéos, de l'audio et des pages externes directement dans une page.
+  </p>
+
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;video controls&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+  &lt;source src="video.ogg" type="video/ogg"&gt;
+  Votre navigateur ne prend pas en charge la vidéo.
+&lt;/video&gt;
+
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+  Votre navigateur ne prend pas en charge l'audio.
+&lt;/audio&gt;
+
+&lt;iframe src="https://www.youtube.com" frameborder="0"&gt;&lt;/iframe&gt;
+  </pre>
+
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li><strong>&lt;video&gt;</strong> : balise pour intégrer une vidéo.</li>
+    <li><strong>&lt;audio&gt;</strong> : balise pour intégrer un fichier audio.</li>
+    <li><strong>&lt;iframe&gt;</strong> : balise pour intégrer une page web externe (comme YouTube).</li>
+  </ul>
+</section>
+<section id="semantic" class="section">
+  <h2>HTML Sémantique</h2>
+  <p>
+    L'HTML sémantique permet d'améliorer l’accessibilité et le SEO en utilisant des balises spécifiques pour chaque section du contenu.
+  </p>
+
+  <h3>📌 Exemple :</h3>
+  <pre>
+&lt;header&gt;En-tête du site&lt;/header&gt;
+&lt;nav&gt;Navigation&lt;/nav&gt;
+&lt;main&gt;Contenu principal&lt;/main&gt;
+&lt;section&gt;Section de contenu&lt;/section&gt;
+&lt;article&gt;Article&lt;/article&gt;
+&lt;footer&gt;Pied de page&lt;/footer&gt;
+  </pre>
+
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li><strong>&lt;header&gt;</strong> : définit l'en-tête du site.</li>
+    <li><strong>&lt;nav&gt;</strong> : définit la section de navigation.</li>
+    <li><strong>&lt;main&gt;</strong> : définit le contenu principal de la page.</li>
+    <li><strong>&lt;section&gt;</strong> : définit une section de contenu.</li>
+    <li><strong>&lt;article&gt;</strong> : représente un article indépendant.</li>
+    <li><strong>&lt;footer&gt;</strong> : définit le pied de page du site.</li>
+  </ul>
+</section>
+<section id="access" class="section dark">
+  <h2>Accessibilité Web (Important pour tous 🔥)</h2>
+  <p>
+    Il est important que les sites web soient accessibles à tous, y compris aux personnes handicapées.
+  </p>
+
+  <h3>📌 Exemple d'accessibilité :</h3>
+  <pre>
+&lt;img src="image.jpg" alt="Description de l'image"&gt;
+&lt;button aria-label="Fermer"&gt;X&lt;/button&gt;
+  </pre>
+
+  <h3>💡 Explication :</h3>
+  <ul>
+    <li><strong>alt</strong> : texte alternatif pour les images (important pour les lecteurs d'écran).</li>
+    <li><strong>aria-label</strong> : donne une description aux boutons pour les lecteurs d'écran.</li>
+  </ul>
+</section>
+
+<section id="final" class="final">
+  <h1>🎉 Cours HTML Complété</h1>
+  <p>Félicitations, vous avez atteint un niveau professionnel !</p>
+  <button onclick="location.href='choisir.html'">Retour</button>
+</section>
