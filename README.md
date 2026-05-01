@@ -1,13 +1,27 @@
 # 📘 Rapport de Projet : Site WebLearn
 
 Dans le cadre du module de programmation web, j’ai réalisé un projet consistant à développer un site web éducatif nommé WebLearn. Ce site a pour objectif d’aider les utilisateurs à apprendre les bases du développement web, notamment HTML, CSS et JavaScript.
+
+---
+
+### 📑 Table des matières
+
+- [📌 Description](#-description)
+- [🎯 Objectifs du projet](#-objectifs-du-projet)
+- [🛠️ Technologies utilisées](#️-technologies-utilisées)
+- [🚀 Fonctionnalités](#-fonctionnalités)
+- [📄 Description des pages](#-description-des-pages)
+- [▶️ Comment utiliser le projet](#️-comment-utiliser-le-projet)
+
+---
+
 ## Objectif 
 ##### Les objectifs principaux de ce projet sont :
 
-Créer une interface web attractive et intuitive.
-Appliquer les concepts de base du HTML, CSS et JavaScript.
-Comprendre la structure d’un site web.
-Ajouter des animations et des interactions dynamiques.
+- Créer une interface web attractive et intuitive.
+- Appliquer les concepts de base du HTML, CSS et JavaScript.
+- Comprendre la structure d’un site web.
+- Ajouter des animations et des interactions dynamiques.
  ## 🌐 Apprendre Dev Web
 
 ### 📌 Description
@@ -69,18 +83,6 @@ L'objectif est de créer un site éducatif interactif pour les débutants.
 
 - **script.js**  
   Fichier JavaScript pour ajouter des interactions (menu, animations…).
-
----
-
-
-### 📑 Table of Contents
-
-- [📌 Description](#-description)
-- [🎯 Objectifs du projet](#-objectifs-du-projet)
-- [🛠️ Technologies utilisées](#️-technologies-utilisées)
-- [🚀 Fonctionnalités](#-fonctionnalités)
-- [📄 Description des pages](#-description-des-pages)
-- [▶️ Comment utiliser le projet](#️-comment-utiliser-le-projet)
 
 ---
 
