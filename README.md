@@ -4,6 +4,12 @@ Dans le cadre du module de programmation web, j’ai réalisé un projet consist
 
 ---
 
+## 👥 Équipe du projet
+- Maroua Khalqani
+- Noussaiba Ontif
+
+---
+
 ### 📑 Table des matières
 
 - [📌 Description](#-description)
